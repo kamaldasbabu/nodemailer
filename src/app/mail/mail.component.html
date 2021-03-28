@@ -1,0 +1,12 @@
+
+<div class="container">
+    <div class="header"><header>NodeMailer Mail Send App</header></div> 
+    <form (submit)="onAddRestatrant()" [formGroup]="addResForm">
+        <input type="text" class="form-control" matInput formControlName="resname" placeholder="Resturant Name" />
+        <input type="text" class="form-control" matInput formControlName="username" placeholder="userid" />
+        <input type="text" class="form-control" matInput formControlName="password" placeholder="password">
+        <button type="submit" class="btn btn-primary"> Send Mail </button>
+    </form>
+</div>
+
+
